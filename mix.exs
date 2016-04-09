@@ -37,6 +37,7 @@ defmodule SbbNotifier.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.9"},
      {:cowboy, "~> 1.0"},
+     {:telebot, "~> 0.1.2"},
      {:mailgun, "~> 0.1.2"}]
   end
 
